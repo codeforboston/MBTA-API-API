@@ -39,12 +39,18 @@ app.get('/:line',function(req,res,next){
 	});
 });
 app.get('/locations/:route',function(req,res,next){
-	mbta.loc(req.params.route).then(function(result){
+	mbta.locations(req.params.route).then(function(result){
 		res.jsonp(result);
 	},function(err){
 		res.jsonp(404,{status:"error",details:err});
 	});
 });
-
+app.get('/schedule/:route',function(req,res,next){
+	mbta.schedule(req.params.route).then(function(result){
+		res.jsonp(result);
+	},function(err){
+		res.jsonp(404,{status:"error",details:err});
+	});
+});
 app.listen(7027);
 console.log('running on 7027');

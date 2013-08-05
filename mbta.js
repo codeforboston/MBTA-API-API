@@ -68,6 +68,27 @@ var parseLocations=function(raw){
 	}
 	return fc;
 }
+var parseSched=function(raw){
+	return raw.body.route.map(function(route){
+		var out = route.$;
+		var stops = {};
+		route.header[0].stop.forEach(function(stop){
+			stops[stop.$.tag]=stop._;
+		});
+		out.times=route.tr.map(function(row){
+			var out = {};
+			out.id = row.$.blockID;
+			out.stops=row.stop.map(function(stop){
+				var out = stop.$;
+				out.name = stops[out.tag];
+				out.time = stop._;
+				return out; 
+			});
+			return out;
+		});
+		return out;
+	});
+}
 exports.list=function(cb){
 	var def = q.defer();
 	if(cb){
@@ -121,6 +142,33 @@ exports.route=function(r,cb){
 		});
 	return def.promise;
 }
+exports.schedule=function(r,cb){
+	var def = q.defer();
+	if(cb){
+		def.promise.then(function(a){cb(null,a)},cb);
+	}
+	request({
+			url:busBase,
+			qs:{
+				command:"schedule",
+				a:"mbta",
+				r:r
+			}
+		},function(e,r,b){
+			if(e){
+				def.reject(e);
+			}else{
+				parser(b,function(err,result){
+					if(err||!result.body.route){
+						def.reject(err);
+					}else{
+						def.resolve(parseSched(result));
+					}
+				})
+			}
+		});
+	return def.promise;
+}
 exports.stop = function(stop,cb){
 	var def = q.defer();
 	if(cb){
@@ -166,7 +214,7 @@ exports.subway = function(line,cb){
 	}
 	return def.promise;
 }
-exports.loc = function(route,since,cb){
+exports.locations = function(route,since,cb){
 	if(typeof since === "function"){
 		cb = since;
 		since=0;
