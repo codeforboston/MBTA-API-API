@@ -8,6 +8,26 @@ var subways = {
 	blue:"http://developer.mbta.com/lib/rthr/blue.json"
 };
 
+function Cache(){
+	var cache = {};
+	this.check=function(code,def){
+		if(code in cache){
+			cache[code].then(function(a){
+				def.resolve(a);
+			},function(a){
+				def.reject(a);
+			});
+			return false;
+		}else{
+			cache[code]=def.promise;
+			setTimeout(function(){
+				delete cache[code]
+			},10000);
+			return true;
+		}
+	}
+}
+
 
 var get$ = function(v){
 	return v.$;
@@ -89,12 +109,14 @@ var parseSched=function(raw){
 		return out;
 	});
 }
+var listCache = new Cache();
 exports.list=function(cb){
 	var def = q.defer();
 	if(cb){
 		def.promise.then(function(a){cb(null,a)},cb);
 	}
-	request({
+	if(listCache.check('list',def)){
+		request({
 			url:busBase,
 			qs:{
 				command:"routeList",
@@ -113,14 +135,17 @@ exports.list=function(cb){
 				})
 			}
 		});
+	}
 	return def.promise;
 }
+var routeCache = new Cache();
 exports.route=function(r,cb){
 	var def = q.defer();
 	if(cb){
 		def.promise.then(function(a){cb(null,a)},cb);
 	}
-	request({
+	if(routeCache.check(r,def)){
+		request({
 			url:busBase,
 			qs:{
 				command:"routeConfig",
@@ -140,14 +165,17 @@ exports.route=function(r,cb){
 				})
 			}
 		});
+	}
 	return def.promise;
 }
+var scheduleCache = new Cache();
 exports.schedule=function(r,cb){
 	var def = q.defer();
 	if(cb){
 		def.promise.then(function(a){cb(null,a)},cb);
 	}
-	request({
+	if(scheduleCache.check(r,def)){
+		request({
 			url:busBase,
 			qs:{
 				command:"schedule",
@@ -167,14 +195,17 @@ exports.schedule=function(r,cb){
 				})
 			}
 		});
+	}
 	return def.promise;
 }
+var stopCache = new Cache();
 exports.stop = function(stop,cb){
 	var def = q.defer();
 	if(cb){
 		def.promise.then(function(a){cb(null,a)},cb);
 	}
-	request({
+	if(stopCache.check(stop,def)){
+		request({
 			url:busBase,
 			qs:{
 				command:"predictions",
@@ -194,26 +225,31 @@ exports.stop = function(stop,cb){
 				})
 			}
 		});
+	}
 	return def.promise;
 }
+var subwayCache = new Cache();
 exports.subway = function(line,cb){
 	var def = q.defer();
 	if(cb){
 		def.promise.then(function(a){cb(null,a)},cb);
 	}
-	if(line in subways){
-		request({
-			url:subways[line],
-		},function(e,r,b){
-			if(e){
-				def.reject(e);
-			}else{
-				def.resolve(JSON.parse(b));
-			}
-		});
+	if(subwayCache.check(line,def)){
+		if(line in subways){
+			request({
+				url:subways[line],
+			},function(e,r,b){
+				if(e){
+					def.reject(e);
+				}else{
+					def.resolve(JSON.parse(b));
+				}
+			});
+		}
 	}
 	return def.promise;
 }
+var locationCache = Cache();
 exports.locations = function(route,since,cb){
 	if(typeof since === "function"){
 		cb = since;
@@ -225,7 +261,8 @@ exports.locations = function(route,since,cb){
 	if(cb){
 		def.promise.then(function(a){cb(null,a)},cb);
 	}
-	request({
+	if(locationCache.check(route+since,def)){
+		request({
 			url:busBase,
 			qs:{
 				command:"vehicleLocations",
@@ -246,5 +283,6 @@ exports.locations = function(route,since,cb){
 				})
 			}
 		});
+	}
 	return def.promise;
 }
