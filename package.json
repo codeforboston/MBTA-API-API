@@ -1,18 +1,18 @@
 {
   "name": "mbta",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "an api for your api",
   "main": "mbta.js",
   "author": "Calvin Metcalf",
   "license": "MIT",
   "repository": "git@github.com:calvinmetcalf/MBTA-API-API.git",
   "devDependencies": {
-    "express": "~3.3.4",
     "awsbox": "~0.4.5"
   },
   "dependencies": {
     "request": "~2.25.0",
     "q": "~0.9.6",
+    "express": "~3.3.4",
     "xml2js": "~0.2.8"
   }
 }
