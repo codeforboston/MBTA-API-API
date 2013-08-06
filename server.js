@@ -16,6 +16,7 @@ app.get('/',function(req,res,next){
 		"details of a route":"/route/[route id]",
 		"details of a stop":"/stop/[stop id]",
 		"geojson of current location on a route":"/locations/[route]",
+		"map of route":"/locations/[route]/preview",
 		"schedule of a route":"/schedule/[route]",
 		"subway line":"/[line]"
 	});
@@ -54,6 +55,9 @@ app.get('/locations/:route',function(req,res,next){
 	},function(err){
 		res.jsonp(404,{status:"error",details:err});
 	});
+});
+app.get('/locations/:route/preview',function(req,res,next){
+	res.sendfile("./preview.html")
 });
 app.get('/schedule/:route',function(req,res,next){
 	mbta.schedule(req.params.route).then(function(result){
