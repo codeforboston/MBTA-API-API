@@ -249,7 +249,7 @@ exports.subway = function(line,cb){
 	}
 	return def.promise;
 }
-var locationCache = Cache();
+var locationCache = new Cache();
 exports.locations = function(route,since,cb){
 	if(typeof since === "function"){
 		cb = since;
