@@ -77,7 +77,7 @@ var parseLocations=function(raw){
 		feature.properties = v.$;
 		feature.geometry={
 			"type": "Point",
-			"coordinates": [feature.properties.lon,feature.properties.lat]
+			"coordinates": [parseFloat(feature.properties.lon,10),parseFloat(feature.properties.lat,10)]
 		}
 		return feature;
 	});
