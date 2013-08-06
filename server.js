@@ -10,6 +10,9 @@ app.all('*', function(req, res, next) {
 	res.header("Access-Control-Allow-Headers", "X-Requested-With");
 	next();
 });
+app.get('/',function(req,res,next){
+	res.jsonp({hello:'there'});
+});
 app.get('/list',function(req,res,next){
 	mbta.list().then(function(result){
 		res.jsonp(result);
@@ -52,5 +55,5 @@ app.get('/schedule/:route',function(req,res,next){
 		res.jsonp(404,{status:"error",details:err});
 	});
 });
-app.listen(7027);
+app.listen(process.env['PORT'] || 3000, '127.0.0.1');
 console.log('running on 7027');
