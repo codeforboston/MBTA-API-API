@@ -1,5 +1,7 @@
 var express = require("express");
 var mbta = require('./mbta');
+var fs = require('fs');
+var preview = fs.readFileSync('./preview.html');
 var app = express();
 app.use(express.logger());
 app.use(express.compress());
@@ -57,7 +59,8 @@ app.get('/locations/:route',function(req,res,next){
 	});
 });
 app.get('/locations/:route/preview',function(req,res,next){
-	res.sendfile("/preview.html")
+	res.set('Content-Type', 'text/html');
+	res.send(preview);
 });
 app.get('/schedule/:route',function(req,res,next){
 	mbta.schedule(req.params.route).then(function(result){
