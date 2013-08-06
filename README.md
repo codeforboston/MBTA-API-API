@@ -1,7 +1,7 @@
 MBTA API API
 ===
 
-MBTA data, for those who don't care for XML. Test version running at `mbta.calvinmetcalf.com`
+MBTA data, for those who don't care for XML. Test version running at `bus.calvinmetcalf.com`
 try [bus.calvinmetcalf.com/list](http://bus.calvinmetcalf.com/list)
 
 Install with:
