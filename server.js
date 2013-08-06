@@ -11,7 +11,14 @@ app.all('*', function(req, res, next) {
 	next();
 });
 app.get('/',function(req,res,next){
-	res.jsonp({hello:'there'});
+	res.jsonp({
+		"list of routes":'/list',
+		"details of a route":"/route/[route id]",
+		"details of a stop":"/stop/[stop id]",
+		"geojson of current location on a route":"/locations/[route]",
+		"schedule of a route":"/schedule/[route]"
+		"subway line":"/[line]"
+	});
 });
 app.get('/list',function(req,res,next){
 	mbta.list().then(function(result){
