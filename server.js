@@ -16,7 +16,7 @@ app.get('/',function(req,res,next){
 		"details of a route":"/route/[route id]",
 		"details of a stop":"/stop/[stop id]",
 		"geojson of current location on a route":"/locations/[route]",
-		"schedule of a route":"/schedule/[route]"
+		"schedule of a route":"/schedule/[route]",
 		"subway line":"/[line]"
 	});
 });
