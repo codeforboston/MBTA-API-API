@@ -5,7 +5,7 @@
   "main": "mbta.js",
   "author": "Calvin Metcalf",
   "license": "MIT",
-  "repository": "git@github.com:calvinmetcalf/MBTA-API-API.git",
+  "repository": "git@github.com:codeforboston/MBTA-API-API.git",
   "devDependencies": {
     "awsbox": "~0.4.5"
   },
