@@ -1,0 +1,328 @@
+{
+"type": "FeatureCollection",
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "station": "Ashmont", "line": "RED", "terminus": "Y", "route": "A - Ashmont  C - Alewife" }, "geometry": { "type": "Point", "coordinates": [ -71.063430144390011, 42.28388354622534 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Harvard", "line": "RED", "terminus": "N", "route": "A - Ashmont  B - Braintree  C - Alewife" }, "geometry": { "type": "Point", "coordinates": [ -71.118906072378252, 42.374029230685181 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Kendall\/MIT", "line": "RED", "terminus": "N", "route": "A - Ashmont  B - Braintree  C - Alewife" }, "geometry": { "type": "Point", "coordinates": [ -71.08619149399847, 42.362415344884276 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Capen Street", "line": "RED", "terminus": "N", "route": "Mattapan Trolley" }, "geometry": { "type": "Point", "coordinates": [ -71.087204823897849, 42.267553056627605 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Tufts Medical Center", "line": "ORANGE", "terminus": "N", "route": "Forest Hills to Oak Grove" }, "geometry": { "type": "Point", "coordinates": [ -71.064281550774098, 42.349080007074441 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Waban", "line": "GREEN", "terminus": "N", "route": "D - Riverside" }, "geometry": { "type": "Point", "coordinates": [ -71.230693419471621, 42.325877716353411 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Kenmore", "line": "GREEN", "terminus": "N", "route": "B C D" }, "geometry": { "type": "Point", "coordinates": [ -71.095544766803513, 42.348996865828866 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Arlington", "line": "GREEN", "terminus": "N", "route": "B C D E" }, "geometry": { "type": "Point", "coordinates": [ -71.070989571882933, 42.351768447168276 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Copley", "line": "GREEN", "terminus": "N", "route": "B C D E" }, "geometry": { "type": "Point", "coordinates": [ -71.077975453851138, 42.349907596228419 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Boylston", "line": "GREEN", "terminus": "N", "route": "B C D E" }, "geometry": { "type": "Point", "coordinates": [ -71.064602140703201, 42.353021315373091 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Chinatown", "line": "ORANGE", "terminus": "N", "route": "Forest Hills to Oak Grove" }, "geometry": { "type": "Point", "coordinates": [ -71.062580539707284, 42.352474134519099 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Haymarket", "line": "GREEN\/ORANGE", "terminus": "N", "route": "GREEN C E \/ ORANGE Forest Hills to Oak Grove" }, "geometry": { "type": "Point", "coordinates": [ -71.057851656808637, 42.362472520099615 ] } }
+,
+{ "type": "Feature", "properties": { "station": "North Station", "line": "GREEN\/ORANGE", "terminus": "N", "route": "GREEN C E \/ ORANGE Forest Hills to Oak Grove" }, "geometry": { "type": "Point", "coordinates": [ -71.059982935254524, 42.365143762047083 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Davis", "line": "RED", "terminus": "N", "route": "A - Ashmont  B - Braintree  C - Alewife" }, "geometry": { "type": "Point", "coordinates": [ -71.122234018861747, 42.396751856227013 ] } }
+,
+{ "type": "Feature", "properties": { "station": "South Station", "line": "RED", "terminus": "N", "route": "A - Ashmont  B - Braintree  C - Alewife" }, "geometry": { "type": "Point", "coordinates": [ -71.055171640479699, 42.352592982363568 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Oak Grove", "line": "ORANGE", "terminus": "Y", "route": "Forest Hills to Oak Grove" }, "geometry": { "type": "Point", "coordinates": [ -71.070826328542964, 42.437504597046861 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Malden Center", "line": "ORANGE", "terminus": "N", "route": "Forest Hills to Oak Grove" }, "geometry": { "type": "Point", "coordinates": [ -71.07431521650399, 42.426580981189915 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Wellington", "line": "ORANGE", "terminus": "N", "route": "Forest Hills to Oak Grove" }, "geometry": { "type": "Point", "coordinates": [ -71.077117439287093, 42.40174005282045 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Sullivan Square", "line": "ORANGE", "terminus": "N", "route": "Forest Hills to Oak Grove" }, "geometry": { "type": "Point", "coordinates": [ -71.07693157318748, 42.384297418098562 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Community College", "line": "ORANGE", "terminus": "N", "route": "Forest Hills to Oak Grove" }, "geometry": { "type": "Point", "coordinates": [ -71.070338216694068, 42.373908132707648 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Lechmere", "line": "GREEN", "terminus": "Y", "route": "E - Lechmere" }, "geometry": { "type": "Point", "coordinates": [ -71.077157707402179, 42.370917872907796 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Science Park", "line": "GREEN", "terminus": "N", "route": "E - Lechmere" }, "geometry": { "type": "Point", "coordinates": [ -71.06774398738429, 42.366742433751604 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Bowdoin", "line": "BLUE", "terminus": "Y", "route": "Bowdoin to Wonderland" }, "geometry": { "type": "Point", "coordinates": [ -71.061837072222744, 42.361160748114457 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Government Center", "line": "BLUE\/GREEN", "terminus": "N", "route": "BLUE Bowdoin to Wonderland \/ GREEN B C D E" }, "geometry": { "type": "Point", "coordinates": [ -71.059458668220898, 42.359296597794511 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Aquarium", "line": "BLUE", "terminus": "N", "route": "Bowdoin to Wonderland" }, "geometry": { "type": "Point", "coordinates": [ -71.051938434134286, 42.359516961732389 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Maverick", "line": "BLUE", "terminus": "N", "route": "Bowdoin to Wonderland" }, "geometry": { "type": "Point", "coordinates": [ -71.039579764313999, 42.368992980661339 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Airport", "line": "BLUE", "terminus": "N", "route": "Bowdoin to Wonderland" }, "geometry": { "type": "Point", "coordinates": [ -71.030224505723069, 42.374362702253208 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Wood Island", "line": "BLUE", "terminus": "N", "route": "Bowdoin to Wonderland" }, "geometry": { "type": "Point", "coordinates": [ -71.022912287335487, 42.379647435665177 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Orient Heights", "line": "BLUE", "terminus": "N", "route": "Bowdoin to Wonderland" }, "geometry": { "type": "Point", "coordinates": [ -71.00479639667266, 42.386841643557879 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Suffolk Downs", "line": "BLUE", "terminus": "N", "route": "Bowdoin to Wonderland" }, "geometry": { "type": "Point", "coordinates": [ -70.997149725350042, 42.390496463779861 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Beachmont", "line": "BLUE", "terminus": "N", "route": "Bowdoin to Wonderland" }, "geometry": { "type": "Point", "coordinates": [ -70.992532250693301, 42.397251645798143 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Revere Beach", "line": "BLUE", "terminus": "N", "route": "Bowdoin to Wonderland" }, "geometry": { "type": "Point", "coordinates": [ -70.992503487081663, 42.40784240469528 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Wonderland", "line": "BLUE", "terminus": "Y", "route": "Bowdoin to Wonderland" }, "geometry": { "type": "Point", "coordinates": [ -70.991664514290946, 42.413433485863465 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Alewife", "line": "RED", "terminus": "Y", "route": "A - Ashmont  B - Braintree  C - Alewife" }, "geometry": { "type": "Point", "coordinates": [ -71.142077311987734, 42.396121027746226 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Porter", "line": "RED", "terminus": "N", "route": "A - Ashmont  B - Braintree  C - Alewife" }, "geometry": { "type": "Point", "coordinates": [ -71.119114218684899, 42.388320479649131 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Central", "line": "RED", "terminus": "N", "route": "A - Ashmont  B - Braintree  C - Alewife" }, "geometry": { "type": "Point", "coordinates": [ -71.1038251795284, 42.365439938692113 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Charles\/MGH", "line": "RED", "terminus": "N", "route": "A - Ashmont  B - Braintree  C - Alewife" }, "geometry": { "type": "Point", "coordinates": [ -71.071080607525332, 42.361167622046189 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Broadway", "line": "RED", "terminus": "N", "route": "A - Ashmont  B - Braintree  C - Alewife" }, "geometry": { "type": "Point", "coordinates": [ -71.057170039948375, 42.342581686113498 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Andrew", "line": "RED", "terminus": "N", "route": "A - Ashmont  B - Braintree  C - Alewife" }, "geometry": { "type": "Point", "coordinates": [ -71.056977545832638, 42.33011322504445 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Savin Hill", "line": "RED", "terminus": "N", "route": "A - Ashmont  C - Alewife" }, "geometry": { "type": "Point", "coordinates": [ -71.053640061286146, 42.310747824608612 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Fields Corner", "line": "RED", "terminus": "N", "route": "A - Ashmont  C - Alewife" }, "geometry": { "type": "Point", "coordinates": [ -71.061923922787528, 42.300001622356881 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Shawmut", "line": "RED", "terminus": "N", "route": "A - Ashmont  C - Alewife" }, "geometry": { "type": "Point", "coordinates": [ -71.065828888002983, 42.293107449484999 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Cedar Grove", "line": "RED", "terminus": "N", "route": "Mattapan Trolley" }, "geometry": { "type": "Point", "coordinates": [ -71.06031736180195, 42.279539566622454 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Butler", "line": "RED", "terminus": "N", "route": "Mattapan Trolley" }, "geometry": { "type": "Point", "coordinates": [ -71.06246997005772, 42.27241637637205 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Milton", "line": "RED", "terminus": "N", "route": "Mattapan Trolley" }, "geometry": { "type": "Point", "coordinates": [ -71.067241903010213, 42.270327108955996 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Central Avenue", "line": "RED", "terminus": "N", "route": "Mattapan Trolley" }, "geometry": { "type": "Point", "coordinates": [ -71.07360913864423, 42.269985173171797 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Valley Road", "line": "RED", "terminus": "N", "route": "Mattapan Trolley" }, "geometry": { "type": "Point", "coordinates": [ -71.081503651219705, 42.268325887651088 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Mattapan", "line": "RED", "terminus": "Y", "route": "Mattapan Trolley" }, "geometry": { "type": "Point", "coordinates": [ -71.092512363563031, 42.267511879824937 ] } }
+,
+{ "type": "Feature", "properties": { "station": "North Quincy", "line": "RED", "terminus": "N", "route": "B - Braintree  C - Alewife" }, "geometry": { "type": "Point", "coordinates": [ -71.030442639878075, 42.275976380053372 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Wollaston", "line": "RED", "terminus": "N", "route": "B - Braintree  C - Alewife" }, "geometry": { "type": "Point", "coordinates": [ -71.020542837724079, 42.266709771673931 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Quincy Center", "line": "RED", "terminus": "N", "route": "B - Braintree  C - Alewife" }, "geometry": { "type": "Point", "coordinates": [ -71.00564054324272, 42.252087026091758 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Quincy Adams", "line": "RED", "terminus": "N", "route": "B - Braintree  C - Alewife" }, "geometry": { "type": "Point", "coordinates": [ -71.006941302973146, 42.233293689736108 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Braintree", "line": "RED", "terminus": "Y", "route": "B - Braintree  C - Alewife" }, "geometry": { "type": "Point", "coordinates": [ -71.001702542988582, 42.207537257185422 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Forest Hills", "line": "ORANGE", "terminus": "Y", "route": "Forest Hills to Oak Grove" }, "geometry": { "type": "Point", "coordinates": [ -71.114191429188594, 42.300771241518774 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Green Street", "line": "ORANGE", "terminus": "N", "route": "Forest Hills to Oak Grove" }, "geometry": { "type": "Point", "coordinates": [ -71.108059394861826, 42.309898743958058 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Stony Brook", "line": "ORANGE", "terminus": "N", "route": "Forest Hills to Oak Grove" }, "geometry": { "type": "Point", "coordinates": [ -71.104441267916314, 42.317099799977271 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Jackson Square", "line": "ORANGE", "terminus": "N", "route": "Forest Hills to Oak Grove" }, "geometry": { "type": "Point", "coordinates": [ -71.099932475862261, 42.32317162128205 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Ruggles", "line": "ORANGE", "terminus": "N", "route": "Forest Hills to Oak Grove" }, "geometry": { "type": "Point", "coordinates": [ -71.089509574192704, 42.336666151265042 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Massachusetts Ave", "line": "ORANGE", "terminus": "N", "route": "Forest Hills to Oak Grove" }, "geometry": { "type": "Point", "coordinates": [ -71.084150649915941, 42.341006386286949 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Back Bay", "line": "ORANGE", "terminus": "N", "route": "Forest Hills to Oak Grove" }, "geometry": { "type": "Point", "coordinates": [ -71.075106041250024, 42.347559095487576 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Prudential", "line": "GREEN", "terminus": "N", "route": "E - Health Street" }, "geometry": { "type": "Point", "coordinates": [ -71.081199091967406, 42.3457681111027 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Symphony", "line": "GREEN", "terminus": "N", "route": "E - Health Street" }, "geometry": { "type": "Point", "coordinates": [ -71.084940608999119, 42.342720337611688 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Northeastern", "line": "GREEN", "terminus": "N", "route": "E - Health Street" }, "geometry": { "type": "Point", "coordinates": [ -71.089652055078005, 42.340050632695132 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Museum Of Fine Arts", "line": "GREEN", "terminus": "N", "route": "E - Health Street" }, "geometry": { "type": "Point", "coordinates": [ -71.094976051367865, 42.337925138991856 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Longwood Medical Area", "line": "GREEN", "terminus": "N", "route": "E - Health Street" }, "geometry": { "type": "Point", "coordinates": [ -71.099560999260845, 42.336141008719402 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Brigham Circle", "line": "GREEN", "terminus": "N", "route": "E - Health Street" }, "geometry": { "type": "Point", "coordinates": [ -71.103724187197599, 42.334571049762204 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Fenwood Road", "line": "GREEN", "terminus": "N", "route": "E - Health Street" }, "geometry": { "type": "Point", "coordinates": [ -71.105645671333022, 42.333745406693467 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Mission Park", "line": "GREEN", "terminus": "N", "route": "E - Health Street" }, "geometry": { "type": "Point", "coordinates": [ -71.109584963071185, 42.333179408881584 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Riverway", "line": "GREEN", "terminus": "N", "route": "E - Health Street" }, "geometry": { "type": "Point", "coordinates": [ -71.11195066650285, 42.331978008094886 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Back Of The Hill", "line": "GREEN", "terminus": "N", "route": "E - Health Street" }, "geometry": { "type": "Point", "coordinates": [ -71.111070407774392, 42.32963825086081 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Heath Street", "line": "GREEN", "terminus": "Y", "route": "E - Health Street" }, "geometry": { "type": "Point", "coordinates": [ -71.11028101766621, 42.328311284679572 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Hynes Convention Ctr\/ICA", "line": "GREEN", "terminus": "N", "route": "B C D" }, "geometry": { "type": "Point", "coordinates": [ -71.087314557083772, 42.347982285273794 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Blandford Street", "line": "GREEN", "terminus": "N", "route": "B - Boston College" }, "geometry": { "type": "Point", "coordinates": [ -71.100055586668134, 42.349198076859544 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Boston University East", "line": "GREEN", "terminus": "N", "route": "B - Boston College" }, "geometry": { "type": "Point", "coordinates": [ -71.104427939418343, 42.349721142371195 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Boston University Central", "line": "GREEN", "terminus": "N", "route": "B - Boston College" }, "geometry": { "type": "Point", "coordinates": [ -71.107036120204484, 42.350040756848351 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Boston University West", "line": "GREEN", "terminus": "N", "route": "B - Boston College" }, "geometry": { "type": "Point", "coordinates": [ -71.113506407064008, 42.350821682303625 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Saint Paul Street", "line": "GREEN", "terminus": "N", "route": "B - Boston College" }, "geometry": { "type": "Point", "coordinates": [ -71.116343985419405, 42.351163000903185 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Pleasant Street", "line": "GREEN", "terminus": "N", "route": "B - Boston College" }, "geometry": { "type": "Point", "coordinates": [ -71.119060155004235, 42.351489646570826 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Babcock Street", "line": "GREEN", "terminus": "N", "route": "B - Boston College" }, "geometry": { "type": "Point", "coordinates": [ -71.121715189490018, 42.351808874688558 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Packards Corner", "line": "GREEN", "terminus": "N", "route": "B - Boston College" }, "geometry": { "type": "Point", "coordinates": [ -71.125225829741254, 42.351785813680557 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Harvard Avenue", "line": "GREEN", "terminus": "N", "route": "B - Boston College" }, "geometry": { "type": "Point", "coordinates": [ -71.131007260818649, 42.350411774416038 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Griggs Street", "line": "GREEN", "terminus": "N", "route": "B - Boston College" }, "geometry": { "type": "Point", "coordinates": [ -71.134364626789619, 42.348819512639714 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Allston Street", "line": "GREEN", "terminus": "N", "route": "B - Boston College" }, "geometry": { "type": "Point", "coordinates": [ -71.137636800784705, 42.348576094896934 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Warren Street", "line": "GREEN", "terminus": "N", "route": "B - Boston College" }, "geometry": { "type": "Point", "coordinates": [ -71.140240394748162, 42.34862365011508 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Washington Street", "line": "GREEN", "terminus": "N", "route": "B - Boston College" }, "geometry": { "type": "Point", "coordinates": [ -71.142548850901676, 42.34412328995154 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Sutherland Road", "line": "GREEN", "terminus": "N", "route": "B - Boston College" }, "geometry": { "type": "Point", "coordinates": [ -71.146329901997689, 42.341561497825886 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Chiswick Road", "line": "GREEN", "terminus": "N", "route": "B - Boston College" }, "geometry": { "type": "Point", "coordinates": [ -71.150951315390074, 42.340618083156286 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Chestnut Hill Avenue", "line": "GREEN", "terminus": "N", "route": "B - Boston College" }, "geometry": { "type": "Point", "coordinates": [ -71.152655296948836, 42.338577769206047 ] } }
+,
+{ "type": "Feature", "properties": { "station": "South Street", "line": "GREEN", "terminus": "N", "route": "B - Boston College" }, "geometry": { "type": "Point", "coordinates": [ -71.15726165545567, 42.339454038904279 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Boston College", "line": "GREEN", "terminus": "Y", "route": "B - Boston College" }, "geometry": { "type": "Point", "coordinates": [ -71.167024963969624, 42.340155438369138 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Cleveland Circle", "line": "GREEN", "terminus": "Y", "route": "C - Cleveland Circle" }, "geometry": { "type": "Point", "coordinates": [ -71.149286630825216, 42.336136714559977 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Englewood Avenue", "line": "GREEN", "terminus": "N", "route": "C - Cleveland Circle" }, "geometry": { "type": "Point", "coordinates": [ -71.145498392548248, 42.336984803970203 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Dean Road", "line": "GREEN", "terminus": "N", "route": "C - Cleveland Circle" }, "geometry": { "type": "Point", "coordinates": [ -71.141955342180054, 42.337714335098838 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Tappan Street", "line": "GREEN", "terminus": "N", "route": "C - Cleveland Circle" }, "geometry": { "type": "Point", "coordinates": [ -71.138441384224564, 42.338518819112636 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Washington Square", "line": "GREEN", "terminus": "N", "route": "C - Cleveland Circle" }, "geometry": { "type": "Point", "coordinates": [ -71.135367077097513, 42.339327416114884 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Fairbanks Street", "line": "GREEN", "terminus": "N", "route": "C - Cleveland Circle" }, "geometry": { "type": "Point", "coordinates": [ -71.131297032971602, 42.339640255747078 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Brandon Hall", "line": "GREEN", "terminus": "N", "route": "C - Cleveland Circle" }, "geometry": { "type": "Point", "coordinates": [ -71.128657200775109, 42.340053637982159 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Summit Ave\/Winchester St", "line": "GREEN", "terminus": "N", "route": "C - Cleveland Circle" }, "geometry": { "type": "Point", "coordinates": [ -71.125787870232301, 42.341028365423334 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Coolidge Corner", "line": "GREEN", "terminus": "N", "route": "C - Cleveland Circle" }, "geometry": { "type": "Point", "coordinates": [ -71.121295437233485, 42.342149985857191 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Saint Paul Street", "line": "GREEN", "terminus": "N", "route": "C - Cleveland Circle" }, "geometry": { "type": "Point", "coordinates": [ -71.117189085940552, 42.343210425046898 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Kent Street", "line": "GREEN", "terminus": "N", "route": "C - Cleveland Circle" }, "geometry": { "type": "Point", "coordinates": [ -71.114291287359393, 42.34401012171179 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Hawes Street", "line": "GREEN", "terminus": "N", "route": "C - Cleveland Circle" }, "geometry": { "type": "Point", "coordinates": [ -71.111174801794192, 42.344859916198786 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Saint Marys Street", "line": "GREEN", "terminus": "N", "route": "C - Cleveland Circle" }, "geometry": { "type": "Point", "coordinates": [ -71.107239564142787, 42.345987371728114 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Fenway Park", "line": "GREEN", "terminus": "N", "route": "D - Riverside" }, "geometry": { "type": "Point", "coordinates": [ -71.104604427807615, 42.345158636682569 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Longwood", "line": "GREEN", "terminus": "N", "route": "D - Riverside" }, "geometry": { "type": "Point", "coordinates": [ -71.109934569402796, 42.341669116325797 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Brookline Village", "line": "GREEN", "terminus": "N", "route": "D - Riverside" }, "geometry": { "type": "Point", "coordinates": [ -71.116827935622084, 42.332594664039604 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Brookline Hills", "line": "GREEN", "terminus": "N", "route": "D - Riverside" }, "geometry": { "type": "Point", "coordinates": [ -71.126727403384464, 42.331294590546754 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Beaconsfield", "line": "GREEN", "terminus": "N", "route": "D - Riverside" }, "geometry": { "type": "Point", "coordinates": [ -71.140259272448574, 42.335692184970689 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Reservoir", "line": "GREEN", "terminus": "N", "route": "D - Riverside" }, "geometry": { "type": "Point", "coordinates": [ -71.148379018073769, 42.335139909024804 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Chestnut Hill", "line": "GREEN", "terminus": "N", "route": "D - Riverside" }, "geometry": { "type": "Point", "coordinates": [ -71.164608734014166, 42.326741781825056 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Newton Centre", "line": "GREEN", "terminus": "N", "route": "D - Riverside" }, "geometry": { "type": "Point", "coordinates": [ -71.192369807625028, 42.329415487368912 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Newton Highlands", "line": "GREEN", "terminus": "N", "route": "D - Riverside" }, "geometry": { "type": "Point", "coordinates": [ -71.205501858170308, 42.322354081012641 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Eliot", "line": "GREEN", "terminus": "N", "route": "D - Riverside" }, "geometry": { "type": "Point", "coordinates": [ -71.216588046663659, 42.31897816723334 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Woodland", "line": "GREEN", "terminus": "N", "route": "D - Riverside" }, "geometry": { "type": "Point", "coordinates": [ -71.243267896961186, 42.332832823937473 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Riverside", "line": "GREEN", "terminus": "Y", "route": "D - Riverside" }, "geometry": { "type": "Point", "coordinates": [ -71.252554339619991, 42.337398407976188 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Downtown Crossing", "line": "ORANGE\/RED", "terminus": "N", "route": "ORANGE Forest Hills to Oak Grove \/ RED A - Ashmont  B - Braintree  C - Alewife" }, "geometry": { "type": "Point", "coordinates": [ -71.060512095258517, 42.355433977735558 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Park Street", "line": "GREEN\/RED", "terminus": "N", "route": "GREEN B C D E \/ RED A - Ashmont  B - Braintree  C - Alewife" }, "geometry": { "type": "Point", "coordinates": [ -71.062309835191911, 42.356203268361703 ] } }
+,
+{ "type": "Feature", "properties": { "station": "JFK\/UMass", "line": "RED", "terminus": "N", "route": "A - Ashmont  B - Braintree  C - Alewife" }, "geometry": { "type": "Point", "coordinates": [ -71.052360766861241, 42.320636509688462 ] } }
+,
+{ "type": "Feature", "properties": { "station": "State", "line": "BLUE\/ORANGE", "terminus": "N", "route": "BLUE Bowdoin to Wonderland \/ ORANGE Forest Hills to Oak Grove" }, "geometry": { "type": "Point", "coordinates": [ -71.057819054152972, 42.358799343175207 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Roxbury Crossing", "line": "ORANGE", "terminus": "N", "route": "Forest Hills to Oak Grove" }, "geometry": { "type": "Point", "coordinates": [ -71.096005018578921, 42.330867645502316 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Airport Terminal B2", "line": "SILVER", "terminus": "N", "route": "SL1" }, "geometry": { "type": "Point", "coordinates": [ -71.018367713376833, 42.363075210850631 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Dry Dock Ave at Design Ctr Pl, layover", "line": "SILVER", "terminus": "N", "route": "SL2" }, "geometry": { "type": "Point", "coordinates": [ -71.034637370166394, 42.344647194675254 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Lenox Street", "line": "SILVER", "terminus": "N", "route": "SL4 SL5" }, "geometry": { "type": "Point", "coordinates": [ -71.078542266909153, 42.335166659543674 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Massachusetts Ave", "line": "SILVER", "terminus": "N", "route": "SL4 SL5" }, "geometry": { "type": "Point", "coordinates": [ -71.077199758282106, 42.336249667894187 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Newton Street", "line": "SILVER", "terminus": "N", "route": "SL4 SL5" }, "geometry": { "type": "Point", "coordinates": [ -71.073757258208104, 42.338690853113668 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Union Park Street", "line": "SILVER", "terminus": "N", "route": "SL4 SL5" }, "geometry": { "type": "Point", "coordinates": [ -71.069216006288656, 42.341434804433902 ] } }
+,
+{ "type": "Feature", "properties": { "station": "E.Berkeley Street", "line": "SILVER", "terminus": "N", "route": "SL4 SL5" }, "geometry": { "type": "Point", "coordinates": [ -71.065926369242987, 42.34417548729828 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Herald Street", "line": "SILVER", "terminus": "N", "route": "SL4 SL5" }, "geometry": { "type": "Point", "coordinates": [ -71.064607513366795, 42.346395997015385 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Worcester Square", "line": "SILVER", "terminus": "N", "route": "SL4 SL5" }, "geometry": { "type": "Point", "coordinates": [ -71.075398908025534, 42.337555034770254 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Melnea Cass Blvd", "line": "SILVER", "terminus": "N", "route": "SL4 SL5" }, "geometry": { "type": "Point", "coordinates": [ -71.081198813759983, 42.332701674167197 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Tuffs Medical Center", "line": "SILVER", "terminus": "N", "route": "SL4 SL5" }, "geometry": { "type": "Point", "coordinates": [ -71.063692051211561, 42.349610630244179 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Northern Avenue at Tide Street", "line": "SILVER", "terminus": "N", "route": "SL2" }, "geometry": { "type": "Point", "coordinates": [ -71.031781832637719, 42.345103498637769 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Northern Avenue at Harbor Street", "line": "SILVER", "terminus": "N", "route": "SL2" }, "geometry": { "type": "Point", "coordinates": [ -71.035114273003472, 42.346588439160818 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Airport Terminal B1", "line": "SILVER", "terminus": "N", "route": "SL1" }, "geometry": { "type": "Point", "coordinates": [ -71.018543536072059, 42.361339647153677 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Airport Terminal A", "line": "SILVER", "terminus": "N", "route": "SL1" }, "geometry": { "type": "Point", "coordinates": [ -71.021153933103278, 42.364725561038362 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Airport Terminal C", "line": "SILVER", "terminus": "N", "route": "SL1" }, "geometry": { "type": "Point", "coordinates": [ -71.017832436237711, 42.367236296410098 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Airport Terminal E", "line": "SILVER", "terminus": "Y", "route": "SL1" }, "geometry": { "type": "Point", "coordinates": [ -71.021029324075997, 42.369638039912246 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Silver Line Way", "line": "SILVER", "terminus": "N", "route": "SL1 SL2" }, "geometry": { "type": "Point", "coordinates": [ -71.038037150847757, 42.346969888228585 ] } }
+,
+{ "type": "Feature", "properties": { "station": "World Trade Center", "line": "SILVER", "terminus": "N", "route": "SL1 SL2" }, "geometry": { "type": "Point", "coordinates": [ -71.042629479870726, 42.348341515187293 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Court House", "line": "SILVER", "terminus": "N", "route": "SL1 SL2" }, "geometry": { "type": "Point", "coordinates": [ -71.04688863191501, 42.352384937402277 ] } }
+,
+{ "type": "Feature", "properties": { "station": "South Station", "line": "SILVER", "terminus": "N", "route": "SL1 SL2" }, "geometry": { "type": "Point", "coordinates": [ -71.055276582607249, 42.352616309404297 ] } }
+,
+{ "type": "Feature", "properties": { "station": "88 Black Falcon", "line": "SILVER", "terminus": "N", "route": "SL2" }, "geometry": { "type": "Point", "coordinates": [ -71.026325735707601, 42.343661654616547 ] } }
+,
+{ "type": "Feature", "properties": { "station": "21 Dry Dock Avenue", "line": "SILVER", "terminus": "N", "route": "SL2" }, "geometry": { "type": "Point", "coordinates": [ -71.030887886218508, 42.344737165688507 ] } }
+,
+{ "type": "Feature", "properties": { "station": "25 Dry Dock Avenue", "line": "SILVER", "terminus": "N", "route": "SL2" }, "geometry": { "type": "Point", "coordinates": [ -71.028978719181509, 42.344764495376708 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Black Falcon at Design Center", "line": "SILVER", "terminus": "N", "route": "SL2" }, "geometry": { "type": "Point", "coordinates": [ -71.034305102339061, 42.343883718296034 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Boylston", "line": "SILVER", "terminus": "N", "route": "SL5" }, "geometry": { "type": "Point", "coordinates": [ -71.064198841955601, 42.353370701815919 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Downtown Crossing", "line": "SILVER", "terminus": "N", "route": "SL5" }, "geometry": { "type": "Point", "coordinates": [ -71.06116276024315, 42.354808062307789 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Chinatown", "line": "SILVER", "terminus": "N", "route": "SL4 SL5" }, "geometry": { "type": "Point", "coordinates": [ -71.062568168407651, 42.352415265575701 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Dudley Square", "line": "SILVER", "terminus": "Y", "route": "SL4 SL5" }, "geometry": { "type": "Point", "coordinates": [ -71.083719313699021, 42.329703993286707 ] } }
+,
+{ "type": "Feature", "properties": { "station": "South Station Essex St.", "line": "SILVER", "terminus": "N", "route": "SL4" }, "geometry": { "type": "Point", "coordinates": [ -71.056127014086528, 42.35189858732469 ] } }
+,
+{ "type": "Feature", "properties": { "station": "306 Northern Avenue", "line": "SILVER", "terminus": "N", "route": "SL2" }, "geometry": { "type": "Point", "coordinates": [ -71.036353885631726, 42.347600648444775 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Melnea Cass Blvd", "line": "SILVER", "terminus": "N", "route": "SL4 SL5" }, "geometry": { "type": "Point", "coordinates": [ -71.080801901374855, 42.333105365342568 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Lenox Street", "line": "SILVER", "terminus": "N", "route": "SL4 SL5" }, "geometry": { "type": "Point", "coordinates": [ -71.079060381168063, 42.334929228938798 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Massachusetts Ave", "line": "SILVER", "terminus": "N", "route": "SL4 SL5" }, "geometry": { "type": "Point", "coordinates": [ -71.077304677029034, 42.33632435503759 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Worcester Square", "line": "SILVER", "terminus": "N", "route": "SL4 SL5" }, "geometry": { "type": "Point", "coordinates": [ -71.075877164267126, 42.337371046857477 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Newton Street", "line": "SILVER", "terminus": "N", "route": "SL4 SL5" }, "geometry": { "type": "Point", "coordinates": [ -71.073883299194009, 42.33875975518999 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Union Park Street", "line": "SILVER", "terminus": "N", "route": "SL4 SL5" }, "geometry": { "type": "Point", "coordinates": [ -71.069611812200478, 42.341370107123673 ] } }
+,
+{ "type": "Feature", "properties": { "station": "E.Berkeley Street", "line": "SILVER", "terminus": "N", "route": "SL4 SL5" }, "geometry": { "type": "Point", "coordinates": [ -71.065794866530169, 42.344133930202268 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Herald Street", "line": "SILVER", "terminus": "N", "route": "SL4 SL5" }, "geometry": { "type": "Point", "coordinates": [ -71.064719621853811, 42.346411693024891 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Tuffs Medical Center", "line": "SILVER", "terminus": "N", "route": "SL4 SL5" }, "geometry": { "type": "Point", "coordinates": [ -71.063807055526098, 42.349639963191926 ] } }
+,
+{ "type": "Feature", "properties": { "station": "Black Falcon corner stop", "line": "SILVER", "terminus": "N", "route": "SL2" }, "geometry": { "type": "Point", "coordinates": [ -71.027147441403429, 42.344449825245178 ] } }
+
+]
+}

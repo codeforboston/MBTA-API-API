@@ -1,6 +1,7 @@
 var express = require("express");
 var mbta = require('./mbta');
-var preview = "<!doctype html>\n<html lang=\"en\">\n    <head>\n		<meta charset='utf-8'/>\n		<title>\n			Preview\n		</title>\n		<link rel=\"stylesheet\" href=\"http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.css\" />\n		<!--[if lte IE 8]>\n			<link rel=\"stylesheet\" href=\"http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.ie.css\" />\n		<![endif]-->\n		<style>\n			html { height: 100% }\n			body { height: 100%; margin: 0; padding: 0;}\n			#map{ height: 100% }\n		</style>\n	</head>\n	<body>\n		<div id=\"map\"></div>\n		<script src=\"http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.js\"></script>\n		<script>\n			function fileLoaded(geoJSON){\n				var map = L.map('map',{maxZoom:13});\n				var geoJSONLayer = L.geoJson(geoJSON,{onEachFeature:function(feature,layer){\n					var key,popup;\n					if(feature.properties){\n						popup=\"<ul>\";\n						for(key in feature.properties){\n							popup += \"<li>\"\n							popup += key;\n							popup += \" : \";\n							popup += feature.properties[key];\n							popup += \"</li>\"\n						}\n						popup += \"</ul>\";\n						layer.bindPopup(popup);\n					}\n				}});\n				map.fitBounds(geoJSONLayer.getBounds());\n				L.tileLayer('http://otile{s}.mqcdn.com/tiles/1.0.0/map/{z}/{x}/{y}.jpeg', {\n					attribution: 'Tiles Courtesy of <a href=\"http://www.mapquest.com/\">MapQuest</a> &mdash; Map data &copy; <a href=\"http://openstreetmap.org\">OpenStreetMap</a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA</a>',\n					subdomains: '1234'\n				}).addTo(map);\n				geoJSONLayer.addTo(map);\n			}\n		</script>\n		<script src=\"./?callback=fileLoaded\"></script>\n	</body>\n</html>\n";
+var stations = require('./stations.json');
+var preview = "<!doctype html>\n<html lang=\"en\">\n    <head>\n		<meta charset='utf-8'/>\n		<title>\n			Preview\n		</title>\n		<link rel=\"stylesheet\" href=\"http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.css\" />\n		<!--[if lte IE 8]>\n			<link rel=\"stylesheet\" href=\"http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.ie.css\" />\n		<![endif]-->\n		<style>\n			html { height: 100% }\n			body { height: 100%; margin: 0; padding: 0;}\n			#map{ height: 100% }\n		</style>\n	</head>\n	<body>\n		<div id=\"map\"></div>\n		<script src=\"http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.js\"></script>\n		<script>\n			function fileLoaded(geoJSON){\n				var map = L.map('map',{maxZoom:15});\n				var geoJSONLayer = L.geoJson(geoJSON,{onEachFeature:function(feature,layer){\n					var key,popup;\n					if(feature.properties){\n						popup=\"<ul>\";\n						for(key in feature.properties){\n							popup += \"<li>\"\n							popup += key;\n							popup += \" : \";\n							popup += feature.properties[key];\n							popup += \"</li>\"\n						}\n						popup += \"</ul>\";\n						layer.bindPopup(popup);\n					}\n				}});\n				map.fitBounds(geoJSONLayer.getBounds());\n				L.tileLayer('http://otile{s}.mqcdn.com/tiles/1.0.0/map/{z}/{x}/{y}.jpeg', {\n					attribution: 'Tiles Courtesy of <a href=\"http://www.mapquest.com/\">MapQuest</a> &mdash; Map data &copy; <a href=\"http://openstreetmap.org\">OpenStreetMap</a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA</a>',\n					subdomains: '1234'\n				}).addTo(map);\n				geoJSONLayer.addTo(map);\n			}\n		</script>\n		<script src=\"./?callback=fileLoaded\"></script>\n	</body>\n</html>\n";
 
 var app = express();
 app.use(express.logger());
@@ -23,6 +24,13 @@ app.get('/',function(req,res,next){
 		"subway line":"/[line]"
 	});
 });
+app.get('/stations',function(req,res,next){
+	res.jsonp(stations);
+});
+app.get('/stations/preview',function(req,res,next){
+	res.set('Content-Type', 'text/html');
+	res.send(preview);
+});
 app.get('/stops/:route',function(req,res,next){
 	mbta.stops(req.params.route).then(function(result){
 		res.jsonp(result);
@@ -34,6 +42,7 @@ app.get('/stops/:route/preview',function(req,res,next){
 	res.set('Content-Type', 'text/html');
 	res.send(preview);
 });
+
 app.get('/list',function(req,res,next){
 	mbta.list().then(function(result){
 		res.jsonp(result);
