@@ -1,8 +1,7 @@
 MBTA API API
 ===
 
-MBTA data, for those who don't care for XML. Test version running at `mbta.calvinmetcalf.com`
-try [mbta.calvinmetcalf.com/list](http://mbta.calvinmetcalf.com/list)
+MBTA data, for those who don't care for XML.
 
 Install with:
 ```
